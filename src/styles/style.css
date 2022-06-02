@@ -191,3 +191,27 @@ header {
     text-transform: capitalize;
     text-align: center;
 }
+
+/* faqs */
+.batik-faqs h4 {
+    text-align: center;
+    color: var(--heading-color);
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
+
+.accordion {
+    margin: 15px 45px;
+    padding-bottom: 80px;
+}
+
+.accordion-item .accordion-header button {
+    font-size: 25px;
+}
+
+.accordion-body {
+    font-size: 18px;
+}
