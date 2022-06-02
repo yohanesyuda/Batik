@@ -45,7 +45,7 @@ header {
     background-color: #fff;
 }
 
-.logo{ 
+.logo {
     /* background-image: url('../public/image/logo.png'); */
     /* background-color: #D2AB67;
     width: 50%; */
@@ -155,5 +155,39 @@ header {
     letter-spacing: .5px;
 }
 
+/* product */
+.our_collection h4 {
+    text-align: center;
+    color: var(--heading-color);
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
 
+.list-product {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(233, 233, 233, 0.5);
+}
 
+.list-product:hover {
+    transition: 1.5s;
+    transform: scale(1.05);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.product-image {
+    width: 100%;
+    height: 320px;
+}
+
+.title_product {
+    font-size: 18px;
+    color: var(--heading-color);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
