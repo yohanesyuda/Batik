@@ -215,3 +215,12 @@ header {
 .accordion-body {
     font-size: 18px;
 }
+
+/* Footer */
+footer {
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--primary-color);
+}
