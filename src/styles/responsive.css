@@ -1,0 +1,63 @@
+@media screen and (max-width: 455px) {
+
+    .hero-title {
+        font-size: 35px;
+        padding: 0 24px 0 24px;
+    }
+
+    .form-wrap p {
+        font-size: 16px;
+    }
+
+    /* service */
+    .explore_content h3 {
+        font-size: 28px;
+        padding: 24px;
+        font-weight: 600;
+    }
+
+    .title_service {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* contact */
+    .title-contact h1 {
+        font-size: 35px;
+        padding: 0 24px 0 24px;
+    }
+
+    /* product */
+    .container-fluid img {
+        height: 7vh;
+        padding: 0;
+    }
+
+    .list-item-image {
+        height: 35vh;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+
+    .container-fluid img {
+        padding-left: 50px;
+    }
+
+    .menu {
+        padding-right: 50px;
+    }
+
+    .grid-service {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        margin: 32px auto;
+    }
+}
