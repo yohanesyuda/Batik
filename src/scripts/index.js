@@ -17,6 +17,4 @@ window.addEventListener('hashchange', () => {
   window.addEventListener('load', () => {
     app.renderPage();
   });
-
   
-// import '../styles/contact.css';
