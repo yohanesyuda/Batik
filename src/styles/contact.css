@@ -1,0 +1,70 @@
+.form-head {
+    text-align: center;
+    padding: 200px 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../public/image/img5.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    overflow: visible;
+}
+
+.wrap {
+    margin: -15% 10% 5%;
+}
+
+.form-wrap {
+    text-align: right;
+    width: 100%;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 15% 5%;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.form-wrap p {
+    text-align: center !important;
+    padding: 60px 15% 5%;
+}
+
+.title-contact h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+form .form-control {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--divider);
+    transition: 0.2s ease-in-out;
+}
+
+form .form-control:focus {
+    transform: scale(1.02);
+    padding: 10px 25px;
+    transition: 0.2s ease-in-out;
+}
+
+form .form-control-button {
+    align-content: center;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    margin-top: 24px;
+    width: 180px;
+    height: 48px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+form .form-control-button:hover {
+    background-color: var(--hover);
+    transition: .5s;
+    cursor: pointer;
+}
