@@ -30,7 +30,7 @@
     text-transform: capitalize;
 }
 
-form .form-control {
+.form-control {
     margin-top: 15px;
     background: transparent;
     border: none;
@@ -39,14 +39,15 @@ form .form-control {
     transition: 0.2s ease-in-out;
 }
 
-form .form-control:focus {
+.form-control:focus {
     transform: scale(1.02);
     padding: 10px 25px;
     transition: 0.2s ease-in-out;
 }
 
-form .form-control-button {
+.form-control-button {
     align-content: center;
+    text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1pt;
     margin-top: 24px;
@@ -57,7 +58,7 @@ form .form-control-button {
     background-color: var(--primary-color);
 }
 
-form .form-control-button:hover {
+.form-control-button:hover {
     background-color: var(--hover);
     transition: .5s;
     cursor: pointer;
