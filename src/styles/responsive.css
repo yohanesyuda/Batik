@@ -5,10 +5,6 @@
         padding: 0 24px 0 24px;
     }
 
-    .form-wrap p {
-        font-size: 16px;
-    }
-
     /* service */
     .explore_content h3 {
         font-size: 28px;
@@ -81,6 +77,11 @@
         padding: 0 24px 0 24px;
     }
 
+    .form-wrap p {
+        font-size: 16px;
+        padding: 30px 0;
+    }
+
     footer {
         font-size: 13px;
     }
@@ -95,6 +96,12 @@
 
     .menu {
         padding-right: 50px;
+    }
+
+    /* contact */
+    .form-wrap p {
+        text-align: center !important;
+        padding: 30px 15%;
     }
 
     .grid-service {
