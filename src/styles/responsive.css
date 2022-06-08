@@ -82,6 +82,10 @@
         padding: 30px 0;
     }
 
+    .form-control-button {
+        font-size: 12px;
+    }
+
     footer {
         font-size: 13px;
     }
