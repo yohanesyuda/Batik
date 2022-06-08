@@ -68,6 +68,13 @@
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
+    /* FAQs */
+    .batik-faqs h4 {
+        font-size: 28px;
+        padding: 24px;
+        font-weight: 600;
+    }
+
     footer {
         font-size: 13px;
     }
