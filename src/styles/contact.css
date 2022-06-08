@@ -24,6 +24,11 @@
     display: inline-block;
 }
 
+.form-wrap p {
+    text-align: center !important;
+    padding: 30px 15%;
+}
+
 .title-contact h1 {
     color: #fff;
     font-weight: 400;
