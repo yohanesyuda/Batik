@@ -75,6 +75,12 @@
         font-weight: 600;
     }
 
+    /* contact */
+    .title-contact h1 {
+        font-size: 35px;
+        padding: 0 24px 0 24px;
+    }
+
     footer {
         font-size: 13px;
     }
