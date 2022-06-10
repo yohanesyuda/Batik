@@ -13,17 +13,29 @@ const Contact = {
                     questions.</p>
             </div>
             <div>
-                <form id="contact-form" method="post" action="">
+                <form id="contact-form">
                     <input name="name" type="text" class="form-control" placeholder="Kimi no na wa" requied><br>
                     <input name="email" type="email" class="form-control" placeholder="Email" requied><br>
                     <input name="subject" type="text" class="form-control" placeholder="Subject" requied><br>
                     <textarea name="message" class="form-control" placeholder="Message" rows="3" requied></textarea><br>
-                    <input type="submit" class="form-control-button" value="Send Message">
+                    <button type="submit" class="form-control-button">Send Message</button>
                 </form>
             </div>
         </div>
     </section>`;
     },
+    async afterRender() {
+    const contactForm = document.querySelector('#contact-form');
+    const inputs = contactForm.querySelectorAll('input');
+    const textArea = contactForm.querySelector('textarea');
+    contactForm.addEventListener('submit', function(event){
+        event.preventDefault()
+        inputs.forEach(input => {
+            input.value = ''
+        })
+        textArea.value = ''
+    })
+      },
 };
 
 export default Contact;
