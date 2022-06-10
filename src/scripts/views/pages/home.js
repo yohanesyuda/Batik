@@ -53,35 +53,35 @@ const Home = {
             <div class="grid-product">
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product1.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> DB Peksi Mandasari Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product2.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> Visc Jajaran Sulasih Sogan</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product3.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> Visc Jajaran Sulasih Sogan Coklat</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product4.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> PI Soga Klir Sogan Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product5.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> PA Puger Aji Coklat</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product6.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> CDK Cenderawasih Kembar Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product7.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> SKM Sekar Manunggal Navy</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
                     <img class="product-image" src="./image/product8.png" alt="product batik">
-                    <p class="title_product">Product Name</p>
+                    <p class="title_product"> CDK Cenderawasih Kembar Hijau</p>
                 </div>
             </div>
         </section>
@@ -217,7 +217,9 @@ const Home = {
                 </div>
             </div>
         </section>`
-    }
+    },
+    async afterRender() {
+},
 }
 
 export default Home;
