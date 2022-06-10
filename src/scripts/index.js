@@ -2,6 +2,7 @@ import 'regenerator-runtime';
 import '../styles/style.css';
 import '../styles/responsive.css';
 import '../styles/contact.css';
+import swRegister from '../scripts/utils/sw-register';
 import App from './views/app';
 
 const app = new App({
@@ -11,10 +12,10 @@ const app = new App({
 });
 
 window.addEventListener('hashchange', () => {
-    app.renderPage();
-  });
+  app.renderPage();
+});
 
-  window.addEventListener('load', () => {
-    app.renderPage();
-  });
-  
+window.addEventListener('load', () => {
+  app.renderPage();
+  swRegister();
+});
