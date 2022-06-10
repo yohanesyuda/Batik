@@ -6,7 +6,7 @@ const Home = {
         </section>
 
         <section class="explore_content" id="main_content">
-            <h3>Our Service</h3>
+            <h2>Our Service</h2>
 
             <div class="grid-service">
                 <div class="g-col-6 g-col-md-4">
@@ -48,7 +48,7 @@ const Home = {
         </section>
 
         <section class="our_collection" id="product">
-            <h4>Our New Collection</h4>
+            <h3>Our New Collection</h3>
 
             <div class="grid-product">
                 <div class="list-product g-col-6 g-col-md-4">
@@ -218,8 +218,7 @@ const Home = {
             </div>
         </section>`
     },
-    async afterRender() {
-},
+    async afterRender() {},
 }
 
 export default Home;
