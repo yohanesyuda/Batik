@@ -10,7 +10,10 @@ const Home = {
 
             <div class="grid-service">
                 <div class="g-col-6 g-col-md-4">
-                    <img class="list-item-image" src="./image/img3.jpg" alt="jumbotron" />
+                <picture>
+                    <source type="image/jpeg" srcset="./image/img3-small.jpg">
+                    <img class="list-item-image" src="./image/img3-large.jpg" alt="jumbotron" />
+                </picture>
                     <p class="title_service">
                         Retail
                     </p>
@@ -22,7 +25,11 @@ const Home = {
                     </p>
                 </div>
                 <div class="g-col-6 g-col-md-4">
-                    <img class="list-item-image" src="./image/img2.jpg" alt="jumbotron" />
+                <picture>
+                    
+                <source type="image/jpeg" srcset="./image/img2-small.jpg">
+                <img class="list-item-image" src="./image/img2-large.jpg" alt="jumbotron" />
+                </picture>
                     <p class="title_service">pesanan khusus</p>
                     <p class="description">Melayani pemesanan khusus, baik pesanan pribadi
                         dalam jumlah yang kecil
@@ -35,7 +42,11 @@ const Home = {
                         mereka.</p>
                 </div>
                 <div class="g-col-6 g-col-md-4">
-                    <img class="list-item-image" src="./image/img4.jpg" alt="jumbotron" />
+                <picture>
+                    
+                <source type="image/jpeg" srcset="./image/img4-small.jpg">
+                <img class="list-item-image" src="./image/img4-large.jpg" alt="jumbotron" />
+            </picture>
                     <p class="title_service">Expor</p>
                     <p class="description">Memiliki bisnis ekspor yang bertumbuh pesat.
                         Meski Eropa adalah tujuan
@@ -52,35 +63,67 @@ const Home = {
 
             <div class="grid-product">
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product1.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product1.webp">
+                    <source type="image/jpeg" srcset="./image/product1-small.jpg">
+                    <img class="product-image" src="./image/product1-large.jpg" alt="product batik">
+                </picture>
                     <p class="title_product"> DB Peksi Mandasari Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product2.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product2.webp">
+                    <source type="image/jpeg" srcset="./image/product2-small.jpg">
+                    <img class="product-image" src="./image/product2-large.jpg" alt="product batik">
+                </picture>
                     <p class="title_product"> Visc Jajaran Sulasih Sogan</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product3.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product3.webp">
+                <source type="image/jpeg" srcset="./image/product3-small.jpg">
+                <img class="product-image" src="./image/product3-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> Visc Jajaran Sulasih Sogan Coklat</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product4.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product4.webp">
+                <source type="image/jpeg" srcset="./image/product4-small.jpg">
+                <img class="product-image" src="./image/product4-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> PI Soga Klir Sogan Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product5.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product5.webp">
+                <source type="image/jpeg" srcset="./image/product5-small.jpg">
+                <img class="product-image" src="./image/product5-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> PA Puger Aji Coklat</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product6.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product6.webp">
+                <source type="image/jpeg" srcset="./image/product6-small.jpg">
+                <img class="product-image" src="./image/product6-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> CDK Cenderawasih Kembar Merah</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product7.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product7.webp">
+                <source type="image/jpeg" srcset="./image/product7-small.jpg">
+                <img class="product-image" src="./image/product7-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> SKM Sekar Manunggal Navy</p>
                 </div>
                 <div class="list-product g-col-6 g-col-md-4">
-                    <img class="product-image" src="./image/product8.png" alt="product batik">
+                <picture>
+                <source type="image/webp" srcset="./image/product8.webp">
+                <source type="image/jpeg" srcset="./image/product8-small.jpg">
+                <img class="product-image" src="./image/product8-large.jpg" alt="product batik">
+            </picture>
                     <p class="title_product"> CDK Cenderawasih Kembar Hijau</p>
                 </div>
             </div>
