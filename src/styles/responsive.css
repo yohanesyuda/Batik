@@ -65,7 +65,7 @@
     }
 
     .product-image {
-        height: 45vh;
+        height: 35vh;
     }
 
     .list-item-image {
@@ -101,6 +101,19 @@
         font-weight: 600;
     }
 
+    .accordion {
+        margin: 15px;
+        padding-bottom: 20px;
+    }
+
+    .accordion-item .accordion-header button {
+        font-size: 18px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+
     /* contact */
     .title-contact h1 {
         font-size: 35px;
@@ -124,7 +137,7 @@
 
 @media screen and (max-width: 850px) {
     .container-fluid img {
-        height: 8vh;
+        height: 6vh;
         padding: 0;
     }
 
@@ -151,11 +164,18 @@
         padding-right: 50px;
     }
 
-    /* contact */
-    /* .form-wrap p {
-        text-align: center !important;
-        padding: 30px 15%;
-    } */
+    .accordion {
+        margin: 15px 45px;
+        padding-bottom: 80px;
+    }
+
+    .accordion-body {
+        font-size: 18px;
+    }
+
+    .accordion-item .accordion-header button {
+        font-size: 22px;
+    }
 
     .grid-service {
         display: grid;
