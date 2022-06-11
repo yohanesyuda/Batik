@@ -51,11 +51,6 @@ header {
   height: 45px;
 }
 
-.nav-item {
-  margin-right: 30px;
-  font-size: 20px;
-}
-
 .nav-item a {
   text-decoration: none;
   color: var(--heading-color);
@@ -187,6 +182,7 @@ header {
 
 .title_product {
   font-size: 18px;
+  padding-top: 15px;
   color: var(--heading-color);
   font-weight: 600;
   text-transform: capitalize;
@@ -204,17 +200,9 @@ header {
   text-transform: uppercase;
 }
 
-.accordion {
-  margin: 15px 45px;
-  padding-bottom: 80px;
-}
-
-.accordion-item .accordion-header button {
-  font-size: 25px;
-}
-
-.accordion-body {
-  font-size: 18px;
+/* accordion */
+.accordion-button:not(.collapsed) {
+  color: var(--hover);
 }
 
 /* Footer */
