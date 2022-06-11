@@ -21,7 +21,11 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a href="/">
-                    <img src="./image/logo.png" alt="logo">
+                    <picture>
+                        <source type="image/webp" srcset="./image/logo.webp">
+                        <source type="image/jpeg" srcset="./image/logo-small.jpg">
+                        <img src="./image/logo-large.jpg" alt="logo">
+                    </picture>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
