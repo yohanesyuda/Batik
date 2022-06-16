@@ -27,14 +27,6 @@
         padding: 0 24px 0 24px;
     }
 
-    .navbar-collapse {
-        background-color: #f9fafb;
-        margin-top: 10px;
-        flex-basis: 100%;
-        flex-grow: 1;
-        align-items: center;
-    }
-
     /* service */
     .explore_content h2 {
         font-size: 28px;
@@ -135,18 +127,18 @@
 
 }
 
-@media screen and (max-width: 850px) {
-    .container-fluid img {
-        height: 6vh;
-        padding: 0;
+@media screen and (min-width: 600px) {
+
+    .grid-product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding: 10px 20px;
     }
 
-    .nav-item {
-        padding-top: 14px;
-    }
-
-    .nav-item a {
-        font-size: 18px;
+    .accordion {
+        margin: 15px;
+        padding-bottom: 20px;
     }
 }
 
