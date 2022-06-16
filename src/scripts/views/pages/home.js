@@ -13,7 +13,7 @@ const Home = {
                 <div tabindex="0" class="g-col-6 g-col-md-4">
                 <picture tabindex="0">
                     <source type="image/jpeg" srcset="./image/img3-small.jpg">
-                    <img class="list-item-image" src="./image/img3-large.jpg" alt="jumbotron" />
+                    <img class="list-item-image" src="./image/img3-large.jpg" alt="Retail image" />
                 </picture>
                     <p tabindex="0" class="title_service">Retail</p>
                     <p tabindex="0" class="description">
@@ -26,7 +26,7 @@ const Home = {
                 <div tabindex="0" class="g-col-6 g-col-md-4">
                 <picture tabindex="0">    
                 <source type="image/jpeg" srcset="./image/img2-small.jpg">
-                <img class="list-item-image" src="./image/img2-large.jpg" alt="jumbotron" />
+                <img class="list-item-image" src="./image/img2-large.jpg" alt="pesanan khusus image" />
                 </picture>
                     <p tabindex="0" class="title_service">pesanan khusus</p>
                     <p tabindex="0" class="description">Melayani pemesanan khusus, baik pesanan pribadi
@@ -42,7 +42,7 @@ const Home = {
                 <div tabindex="0" class="g-col-6 g-col-md-4">
                 <picture tabindex="0">
                 <source type="image/jpeg" srcset="./image/img4-small.jpg">
-                <img class="list-item-image" src="./image/img4-large.jpg" alt="jumbotron" />
+                <img class="list-item-image" src="./image/img4-large.jpg" alt="Expor image" />
                 </picture>
                     <p tabindex="0" class="title_service">Expor</p>
                     <p tabindex="0" class="description">Memiliki bisnis ekspor yang bertumbuh pesat.
@@ -63,7 +63,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product1.webp">
                     <source type="image/jpeg" srcset="./image/product1-small.jpg">
-                    <img class="product-image" src="./image/product1-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product1-large.jpg" alt="Batik mandasari">
                 </picture>
                     <p tabindex="0" class="title_product"> DB Peksi Mandasari Merah</p>
                 </div>
@@ -71,7 +71,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product2.webp">
                     <source type="image/jpeg" srcset="./image/product2-small.jpg">
-                    <img class="product-image" src="./image/product2-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product2-large.jpg" alt="Batik jajaran original">
                 </picture>
                     <p tabindex="0" class="title_product"> Visc Jajaran Sulasih Sogan</p>
                 </div>
@@ -79,7 +79,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product3.webp">
                     <source type="image/jpeg" srcset="./image/product3-small.jpg">
-                    <img class="product-image" src="./image/product3-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product3-large.jpg" alt="Batik jajaran coklat">
                 </picture>
                     <p tabindex="0" class="title_product"> Visc Jajaran Sulasih Sogan Coklat</p>
                 </div>
@@ -87,7 +87,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product4.webp">
                     <source type="image/jpeg" srcset="./image/product4-small.jpg">
-                    <img class="product-image" src="./image/product4-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product4-large.jpg" alt="Batik soga Klir merah">
                 </picture>
                     <p tabindex="0" class="title_product"> PI Soga Klir Sogan Merah</p>
                 </div>
@@ -95,7 +95,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product5.webp">
                     <source type="image/jpeg" srcset="./image/product5-small.jpg">
-                    <img class="product-image" src="./image/product5-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product5-large.jpg" alt="Batik puger aji coklat">
                 </picture>
                     <p tabindex="0" class="title_product"> PA Puger Aji Coklat</p>
                 </div>
@@ -103,7 +103,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product6.webp">
                     <source type="image/jpeg" srcset="./image/product6-small.jpg">
-                    <img class="product-image" src="./image/product6-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product6-large.jpg" alt="Batik Cenderawasih merah">
                 </picture>
                     <p tabindex="0" class="title_product"> CDK Cenderawasih Kembar Merah</p>
                 </div>
@@ -111,7 +111,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product7.webp">
                     <source type="image/jpeg" srcset="./image/product7-small.jpg">
-                    <img class="product-image" src="./image/product7-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product7-large.jpg" alt="Batik sekar manunggal">
                 </picture>
                     <p tabindex="0" class="title_product"> SKM Sekar Manunggal Navy</p>
                 </div>
@@ -119,7 +119,7 @@ const Home = {
                 <picture tabindex="0">
                     <source type="image/webp" srcset="./image/product8.webp">
                     <source type="image/jpeg" srcset="./image/product8-small.jpg">
-                    <img class="product-image" src="./image/product8-large.jpg" alt="product batik">
+                    <img class="product-image" src="./image/product8-large.jpg" alt="Batik Cenderawasih hijau">
                 </picture>
                     <p tabindex="0" class="title_product"> CDK Cenderawasih Kembar Hijau</p>
                 </div>
