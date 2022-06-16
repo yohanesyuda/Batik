@@ -14,7 +14,7 @@ const Contact = {
             </div>
             <div>
                 <form id="contact-form">
-                    <input name="name" type="text" class="form-control" placeholder="Kimi no na wa" requied><br>
+                    <input name="name" type="text" class="form-control" placeholder="Nama" requied><br>
                     <input name="email" type="email" class="form-control" placeholder="Email" requied><br>
                     <input name="subject" type="text" class="form-control" placeholder="Subject" requied><br>
                     <textarea name="message" class="form-control" placeholder="Message" rows="3" requied></textarea><br>
