@@ -1,4 +1,4 @@
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 550px) {
     /* navbar */
 
     .navbar {
@@ -29,9 +29,13 @@
 
     /* service */
     .explore_content h2 {
-        font-size: 28px;
+        font-size: 24px;
         padding: 24px;
         font-weight: 600;
+    }
+
+    .explore_content {
+        padding: 0 14px;
     }
 
     .title_service {
@@ -57,27 +61,28 @@
     }
 
     .product-image {
-        height: 35vh;
+        height: auto;
     }
 
     .list-item-image {
-        height: 35vh;
+        height: 55vh;
     }
 
     .our_collection h3 {
-        font-size: 28px;
+        font-size: 24px;
         padding: 24px;
         font-weight: 600;
     }
 
     .title_product {
         padding-top: 15px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
-    .list-product {
-        padding: 0 24px 0 24px;
-        gap: 24px;
+    .grid-product {
+        display: grid;
+        gap: 14px;
+        padding: 7px 14px;
     }
 
     .list-product:hover {
@@ -88,7 +93,7 @@
 
     /* FAQs */
     .batik-faqs h4 {
-        font-size: 28px;
+        font-size: 24px;
         padding: 24px;
         font-weight: 600;
     }
@@ -127,7 +132,55 @@
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px) {
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .explore_content h2 {
+        font-size: 28px;
+        padding-bottom: 14px;
+    }
+
+    .title_service {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .our_collection h3 {
+        font-size: 28px;
+    }
+
+    .batik-faqs h4 {
+        font-size: 28px;
+    }
+
+    .explore_content {
+        padding: 0 24px;
+    }
+
+    .list-item-image {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .container-fluid img {
+        height: 8vh;
+        padding: 0;
+    }
+
+    .nav-item {
+        padding-top: 16px;
+    }
+
+    .nav-item a {
+        font-size: 18px;
+    }
 
     .grid-product {
         display: grid;
@@ -180,6 +233,5 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 24px;
-        margin: 15px 45px;
     }
 }
