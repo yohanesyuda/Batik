@@ -3,7 +3,10 @@ const Home = {
         return `
         
         <section class=" hero_container">
+        <div class="hero_content">
             <h1 tabindex="0" class="hero-title">comfy with indonesian vibes</h1>
+            <a href="#main_content">Explore Now</a>
+        </div>
         </section>
         
         <section class="explore_content" id="main_content">
@@ -13,7 +16,7 @@ const Home = {
                 <div tabindex="0" class="g-col-6 g-col-md-4">
                 <picture tabindex="0">
                     <source type="image/jpeg" srcset="./image/img3-small.jpg">
-                    <img class="list-item-image" src="./image/img3-large.jpg" alt="Retail image" />
+                    <img class="list-item-image" src="./image/img3-small.jpg" alt="Retail image" />
                 </picture>
                     <p tabindex="0" class="title_service">Retail</p>
                     <p tabindex="0" class="description">
@@ -24,9 +27,9 @@ const Home = {
                     </p>
                 </div>
                 <div tabindex="0" class="g-col-6 g-col-md-4">
-                <picture tabindex="0">    
-                <source type="image/jpeg" srcset="./image/img2-small.jpg">
-                <img class="list-item-image" src="./image/img2-large.jpg" alt="pesanan khusus image" />
+                <picture tabindex="0"> 
+                    <source type="image/jpeg" srcset="./image/img2-small.jpg">
+                    <img class="list-item-image" src="./image/img2-small.jpg" alt="pesanan khusus image" />
                 </picture>
                     <p tabindex="0" class="title_service">pesanan khusus</p>
                     <p tabindex="0" class="description">Melayani pemesanan khusus, baik pesanan pribadi
@@ -40,9 +43,9 @@ const Home = {
                         mereka.</p>
                 </div>
                 <div tabindex="0" class="g-col-6 g-col-md-4">
-                <picture tabindex="0">
+                <picture tabindex="0"> 
                 <source type="image/jpeg" srcset="./image/img4-small.jpg">
-                <img class="list-item-image" src="./image/img4-large.jpg" alt="Expor image" />
+                    <img class="list-item-image" src="./image/img4-small.jpg" alt="Expor image" />
                 </picture>
                     <p tabindex="0" class="title_service">Expor</p>
                     <p tabindex="0" class="description">Memiliki bisnis ekspor yang bertumbuh pesat.
